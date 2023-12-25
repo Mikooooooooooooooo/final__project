@@ -13,7 +13,7 @@
             <div class="dashboard__container-wrapper">
                 <div class="dashboard__container-wrapper-left">
                     <TicketCards />
-
+                    <Transaction />
                 </div>
                 <div class="dashboard__container-wrapper-right">
 
@@ -30,7 +30,7 @@
     import MenuBar from './components/MenuBar.vue'
     import TicketCards from './components/TicketCards.vue'
     import Title from './components/Title.vue'
-
+    import Transaction from './components/Transaction.vue'
   
     export default {
         name: 'App',
@@ -38,7 +38,8 @@
         Header,
         MenuBar , 
         Title , 
-        TicketCards
+        TicketCards ,
+        Transaction
         }
     }
   </script>

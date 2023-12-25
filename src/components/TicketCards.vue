@@ -28,5 +28,6 @@
     .ticketcards{
         display: flex ; 
         gap: 2% ;
+        margin: 3vh 0 ; 
     }
 </style>

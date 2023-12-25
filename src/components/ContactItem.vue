@@ -9,7 +9,7 @@
                     {{ job }}
                 </div>
                 <div class="contactItem-job">
-                    {{ name}}
+                    {{ name }}
                 </div>
             </div>
         </div>

@@ -39,7 +39,7 @@
     }
 </script>
 
-<style scoped>
+<style scopedw>
     .change__period{
         width: 330px ; 
         padding: 10px 20px; 
