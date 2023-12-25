@@ -14,7 +14,7 @@
 
 <style>
     .transactionStatus{
-        width: 140px ; 
+        width: 90px; 
         font-weight: 600 ;  
         margin-right: 100px ;
     }

@@ -43,7 +43,7 @@
 
     }   
     .transaction__text{
-        width: 25% ; 
+        width: 35% ; 
         margin-right: 3% ;
     }
     .transactionItem__icon{
@@ -63,7 +63,7 @@
         color: rgba(0, 0, 0, 0.7);
     }
     .transaction__email{
-        width: 25%  ; 
+        width: 20%  ; 
         line-height: 40px; 
     }
     .transaction__amount{

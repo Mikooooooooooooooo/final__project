@@ -16,7 +16,7 @@
                     <Transaction />
                 </div>
                 <div class="dashboard__container-wrapper-right">
-
+                    <Agenda/>
                 </div>
             </div>
           </div>  
@@ -26,6 +26,7 @@
   </template>
   
   <script>
+    import Agenda from './components/Agenda.vue'
     import Header from './components/Header.vue'
     import MenuBar from './components/MenuBar.vue'
     import TicketCards from './components/TicketCards.vue'
@@ -39,7 +40,8 @@
         MenuBar , 
         Title , 
         TicketCards ,
-        Transaction
+        Transaction , 
+        Agenda
         }
     }
   </script>
