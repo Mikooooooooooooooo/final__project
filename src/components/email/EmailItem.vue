@@ -38,8 +38,8 @@
                     style="width: 25px; height: 25px"
                     :src="
                         isActive
-                            ? require('@/assets/star.svg')
-                            : require('@/assets/star-gray.svg')
+                            ? '../assets/star.svg'
+                            : '../assets/star-gray.svg'
                     "
                     alt="star"
                 />
@@ -87,7 +87,7 @@
             "
         >
             <img
-                :src="require('@/assets/dots.svg')"
+                src="../../assets/dots.svg"
                 style="transform: rotate(90deg)"
                 alt=""
             />
@@ -99,11 +99,11 @@
                         width: 40px;
                         height: 40px;
                     "
-                    :src="require('@/assets/print.svg')"
+                    src='../../assets/print.svg'
                     alt=""
                 />
-                <img :src="require('@/assets/time.svg')" alt="" />
-                <img :src="require('@/assets/attach.svg')" alt="" />
+                <img src="../../assets/time.svg" alt="" />
+                <img src="../../assets/attach.svg" alt="" />
             </div>
         </div>
     </div>
@@ -127,9 +127,9 @@ export default {
     methods: {
         getIconForFileType(fileType) {
             if (fileType == "fig") {
-                return require("@/assets/gallery.svg");
+                return "../../assets/gallery.svg";
             }
-            return require("@/assets/file.svg");
+            return "../../assets/file.svg" ; 
         },
         changeActive() {
             this.isActive = !this.isActive;
@@ -152,23 +152,19 @@ export default {
 .sender-info {
     display: flex;
     align-items: center;
-    /* Add styles here to match the design from your image */
 }
 
 .avatar {
     width: 50px;
     height: 50px;
-    /* Add styles here to match the design from your image */
 }
 
 .meta-info {
     display: flex;
     flex-direction: column;
-    /* Add styles here to match the design from your image */
 }
 
 .star-icon {
-    /* Add styles here to use an actual icon instead of a character */
 }
 
 .email {
@@ -179,11 +175,9 @@ export default {
 .email-time {
     color: #bcb4c4;
     font-size: 12px;
-    /* Add styles here to match the design from your image */
 }
 
 .email-content {
-    /* Add styles here to match the design from your image */
 }
 
 .attachments {
@@ -191,7 +185,6 @@ export default {
     gap: 20px;
     color: #ef6e4d;
     font-size: 12px;
-    /* Add styles here to match the design from your image */
 }
 
 .attachment {
@@ -200,11 +193,9 @@ export default {
     border: 1px solid #f0edec;
     padding: 10px 20px;
     gap: 10px;
-    /* Add styles here to match the design from your image */
 }
 
 .filename {
-    /* Add styles here to match the design from your image */
 }
 
 .more-files {

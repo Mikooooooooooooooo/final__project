@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import InvoiceList from "../components/invoice/InvoiceList.vue";
+import InvoiceList from "./components/invoice/InvoiceList.vue";
 
 export default {
     name: "InvoicePage",

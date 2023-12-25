@@ -1,22 +1,22 @@
 <template scoped>
     <div class="graph">
-        <GraphItem class="elem" v-for="(element, index) in styles" 
+        <GraphItems class="elem" v-for="(element, index) in styles" 
             :key="index" 
             :elementName="element.elementName" 
             :backgroundColor="element.backgroundColor"
             :height="element.height"
             >
-        </GraphItem>
+        </GraphItems>
         
     </div>
 </template>
 
 <script scoped>
-    import GraphItem from './GraphItem.vue';
+    import GraphItems from './GraphItems.vue';
 
     export default {
         components: {
-            GraphItem
+            GraphItems
         },
        
         data() {
@@ -41,7 +41,6 @@
         height: 100%;
         display: flex;
         flex-direction: row;
-        
         margin: 2%;
         align-items: baseline;
     }

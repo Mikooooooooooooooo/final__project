@@ -53,10 +53,10 @@
 </template>
 
 <script>
+import OrangeButton from "./OrangeButton.vue";
+import CardIn from "./CardIn.vue";
 import InvoiceItem from "./InvoiceItem.vue";
 import SearchBar from "../SearchBar.vue";
-import OrangeButton from "./OrangeButton";
-import CardIn from "./CardIn.vue";
 
 export default {
   components: {

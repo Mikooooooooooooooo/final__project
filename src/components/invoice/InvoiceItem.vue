@@ -23,7 +23,7 @@
           height: 30px;
           border-radius: 10px;
         "
-        :src="require('@/assets/email.svg')"
+        src="../../assets/email.svg"
         alt=""
       />
       {{ invoice.contact }}
@@ -33,7 +33,7 @@
       {{ invoice.status }}
     </div>
     <img
-      :src="require('@/assets/dots.svg')"
+      src="../../assets/dots.svg"
       style="transform: rotate(90deg); cursor: pointer"
       alt=""
     />

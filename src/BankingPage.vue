@@ -61,13 +61,12 @@
         width: 100%;
         background-color: #f5f5f5;
         padding: 30px;
-        justify-content: space-between;
         position: relative;
         height: 100%;
     }
     
     .center-part{
-        width: 800px;
+        width: 1200px;
         height: 100%;
         position: relative;
 

@@ -6,7 +6,7 @@
                 <div class="amount">
                     <InfoboxReverse infoHeader="This Month" infoDescription="$23,741.00"></InfoboxReverse>
                     <div class="percent-info">
-                        <img src="../assets/up-arrow.png">
+                        <img src="../assets/up.svg  ">
                         <p>+15%</p>
                     </div>
                 </div>
@@ -21,12 +21,12 @@
                 <img src="../assets/income.png" alt="">
                 <InfoboxReverse infoHeader="Income" infoDescription="$23,741.00"></InfoboxReverse>
             </div>
-        <div class="el-1">
-                <img src="../assets/income.png">
-                <InfoboxReverse infoHeader="Outcome" infoDescription="$23,741.00"></InfoboxReverse>
+            <div class="el-1">
+                    <img src="../assets/income.png">
+                    <InfoboxReverse infoHeader="Outcome" infoDescription="$23,741.00"></InfoboxReverse>
+                </div>
             </div>
         </div>
-    </div>
    
 </template>
 
@@ -68,11 +68,10 @@
 
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
     }
     
     .graph-container{
-        width: 400px;
+        width: 500px;
         height: 190px;
     }
     
@@ -118,7 +117,7 @@
         
         display: flex;
         flex-direction: row;
-        justify-content: flex-start ;
+        justify-content: space-between ;
     }
     
 
