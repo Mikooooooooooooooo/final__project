@@ -1,5 +1,5 @@
 
 import { createApp } from 'vue'
-import App from './Banking.vue'
+import App from './BankingPage.vue'
 
 createApp(App).mount('#app')
